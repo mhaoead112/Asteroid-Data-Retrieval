@@ -1,0 +1,20 @@
+{
+  "name": "asteroid-data-retrieval",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhaoead112/Asteroid-Data-Retrieval.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhaoead112/Asteroid-Data-Retrieval/issues"
+  },
+  "homepage": "https://github.com/mhaoead112/Asteroid-Data-Retrieval#readme"
+}
