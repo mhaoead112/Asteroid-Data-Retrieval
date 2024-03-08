@@ -1,4 +1,4 @@
-const apiKey = '';
+const apiKey = 'PNnVTPGu7u4RvlYigHf8YnK8V7bfUcJkayrWYZ0f';
 const today = new Date();
 const sevenDaysLater = new Date();
 sevenDaysLater.setDate(today.getDate() + 7);
