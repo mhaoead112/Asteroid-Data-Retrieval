@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Our ATM</h1>
+         
+    <div id="acc-container">
+        <label for="acc">Enter Your Account Number</label>
+        <input type="text" name="acc" id="acc-num">
+        <button id="submit-btn">Submit</button>
+    </div>
+    <div id="pin-container" display = "none">
+        <label for="pass">Please Enter Your Password</label>
+        <input type="text" name="pass" id="user-pass">
+        <button id="pin-btn">Submit</button>
+    </div>
+    <button id="deposit-btn">Deposit</button>
+    <div id="deposit-container">
+        <label for="dep-am">Enter amount you want to deposit</label>
+        <input type="text" id="dep-am" name="dep-am">
+        <button id="deposit-am-btn">Submit</button>
+    </div>
+   
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
